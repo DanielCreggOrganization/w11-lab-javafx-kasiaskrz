@@ -1,7 +1,23 @@
 package ie.atu.testpackage;
 
-public class Main {
-    public static void main(String []args) {
-        System.out.println("Hello, World!");
+import javafx.application.Application;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+    
+    @Override
+    public void start(Stage primaryStage) {
+        // This method is where we'll begin building our UI
+        System.out.println("JavaFX Application Started");
     }
-};
+
+    public static void main(String[] args) {
+        launch(args);
+        
+    }
+
+    
+}
+
+
+
